@@ -5,14 +5,15 @@ import styles from "./style";
 export default function QuotationsItems(){
     return(
         <View style={styles.mainContent}>
-            <View>
-                <View>
-                    <Image/>
-                    <Text/>
+            <View style={styles.contextLeft}>
+                
+                <View style={styles.boxLogo}>
+                    <Image style={styles.logBitcoin} source={require("../../../img/bitcoin.png")}/>
+                    <Text style={styles.dayCotation}>07/09/2022</Text>
                 </View>
-                <View>
-                    <Text>
-                    </Text>
+
+                <View style={styles.contextRight}>
+                    <Text style={styles.price}>$ 20000.00</Text>
                 </View>
 
             </View>

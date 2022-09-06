@@ -8,7 +8,9 @@ const styles = StyleSheet.create({
         marginLeft: "3%",
         marginBottom: 15,
         borderRadius: 10,
-        
+        flexDirection: "row",
+        alignItems: "center",
+        padding: 10
     },
 });
 
