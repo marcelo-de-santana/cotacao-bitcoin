@@ -5,6 +5,7 @@ import styles from "./style";
 export default function QuotationsItems(){
     return(
         <View style={styles.mainContent}>
+            
             <View style={styles.contextLeft}>
                 
                 <View style={styles.boxLogo}>
@@ -17,6 +18,7 @@ export default function QuotationsItems(){
                 </View>
 
             </View>
+        
         </View>
     )
 }
