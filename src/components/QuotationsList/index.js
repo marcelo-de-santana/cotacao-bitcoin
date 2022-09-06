@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { ScrollView, Text, TouchableOpacity, View } from "react-native";
-import styles from "./styles";
+import styles from "./style";
 
 export default function QuotationsList(){
     return(
