@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 10
     },
-    contetLeft:{
+    contextLeft:{
         width: "36%",
         alignItems: "flex-start",
     },
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         color: "#ffffff",
         fontWeight: "bold",
     },
-    contetRight:{
+    contextRight:{
         width: "60%",
         alignItems: "flex-end",
     },
