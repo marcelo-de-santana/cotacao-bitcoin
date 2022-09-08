@@ -13,6 +13,15 @@ import HistoryGraphic from './src/components/HistoryGraphic';
 import QuotationsList from './src/components/QuotationsList';
 import QuotationsItems from './src/components/QuotationsList/QuotationsItems';
 
+function url(qtdDays){
+  const date = new Date();
+  const listLastDays = qtdDays;
+  const end_date = Date.now();
+  date.setDate(date.getDate() - qtdDays);
+  const start_date = date.getTime(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`);
+  return `https://www.mercadobitcoin.net/api/BTC/trades/${start_date}/${end_date}/`
+}
+
 export default function App(){
   
   return (
